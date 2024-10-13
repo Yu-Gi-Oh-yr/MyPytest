@@ -1,0 +1,22 @@
+-
+  name: 获取接口统一路径鉴权码access_token接口
+  request:
+    headers: None
+    method: get
+    url: https://www.saucedemo.com/inventory.html
+    params:
+      grant_type: client_credential
+      username: standard_user
+      password: secret_sauce
+    validate: None
+-
+  name: 获取接口统一路径鉴权码access_token接口
+  request:
+    headers: None
+    method: get
+    url: https://www.saucedemo.com/inventory.html
+    params:
+      grant_type: “”
+      username: standard_user
+      password: secret_sauce
+    validate: None
